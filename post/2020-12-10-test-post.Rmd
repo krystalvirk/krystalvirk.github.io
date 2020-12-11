@@ -1,0 +1,45 @@
+---
+title: 'Caught in Action: R and Python in Cahoots!'
+author: 'Krystal Virk'
+date: '2020-12-03'
+slug: test-post
+categories: []
+tags: []
+description: ''
+---
+
+
+### Using R and Python Together
+
+What could possibly be cooler then knowing how to code in R? Knowing how to code in both R and Python of course! 
+
+Would you believe me if I said that there was a way to combine both languages within the same code chunk?
+
+Well, I have wonderful news for you! Using the reticulate package, it is possible to seamlessly share information and communicate between the two languages. The reticulate function allows R values to be read in as Python values when called into Python. When the values are returned from Python to R, they get converted back to a format that is compatible in R. It is fascinating how this works!
+
+
+
+
+####Example: UT Royalty
+![](/post/2020-12-10-test-post_files/bevo.jpg){width=30%}
+
+I provided an example below to depict how this communication may look in action.
+
+
+The following code was done in R and will be important in the next step when trying to retrieve R values in a Python code chunk
+```{r}
+library(reticulate)
+king<-"Bevo"
+```
+
+In the code below, the R-defined object 'king' can be retrieved in Python by using the 'r.' notation
+```{python}
+royalty="is my ride or die"
+print(r.king,royalty)
+```
+
+Similarly, a Python-defined object can be retrieved within an R code chunk using the 'py$' notation. Notice how the code below produces the same message as the code above- all thanks to the reticulate function!
+```{r}
+cat(c(king,py$royalty))
+```
+

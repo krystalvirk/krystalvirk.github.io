@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My Website</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on My Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caught in Action: R and Python in Cahoots!</title>
+      <link>/post/2020/12/03/test-post/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/12/03/test-post/</guid>
+      <description>Using R and Python Together What could possibly be cooler then knowing how to code in R? Knowing how to code in both R and Python of course!
+Would you believe me if I said that there was a way to combine both languages within the same code chunk?
+Well, I have wonderful news for you! Using the reticulate package, it is possible to seamlessly share information and communicate between the two languages.</description>
+    </item>
+    
+    <item>
+      <title>String Python Features</title>
+      <link>/post/2020/12/03/post-2/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/12/03/post-2/</guid>
+      <description>Using Python Strings are not a unique feature to the Python program, however it differs from other programs in that Python is very flexible with its string operations. Strings are arrays and have a length of 1, so the position of the characters is impertive in returning the correct code! An example of how strings work in Python is depicted below.
+ Example: See below: &#39;first&#39; and &#39;last&#39; returns the desired code.</description>
+    </item>
+    
+  </channel>
+</rss>

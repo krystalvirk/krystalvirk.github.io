@@ -1,0 +1,34 @@
+---
+title: String Python Features
+author: 'Krystal Virk'
+date: '2020-12-03'
+slug: post-2
+categories: []
+tags: []
+description: ''
+---
+
+### Using Python
+
+Strings are not a unique feature to the Python program, however it differs from other programs in that Python is very flexible with its string operations. Strings are arrays and have a length of 1, so the position of the characters is impertive in returning the correct code! An example of how strings work in Python is depicted below.
+
+##Example:
+
+See below: 'first' and 'last' returns the desired code. When writing this code, know that 'first' and 'last' can be replaced with any words of your choosing. The '=' sign assigns the word to the variable
+```{python}
+first = "coding"
+last = "rules"
+first + last
+```
+
+Notice below how the strings can be manipulated to return some funky outputs!
+
+```{python}
+last[0]+first[1:]+ ' ' +first[0]+last[1:]
+last[:4]+first[2:]+' '+first[:3]+last[4:]
+2*first[0:4] + 2*last[-4:]
+2*(first[0:4]+last[-4:])
+
+```
+
+This was a brief introduction to one of the functions of strings and how they can be sliced, but there is so much more to be discovered with Python strings, such as how loops can be used!
